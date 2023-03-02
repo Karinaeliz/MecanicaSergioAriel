@@ -98,6 +98,7 @@ header{
 }
 .dropdown_menu.open{
     height: 125px;
+    visibility: visible;
 }
 .dropdown_menu li{
     padding: 0.7rem;
@@ -366,6 +367,7 @@ header{
     }
     .dropdown_menu{
         display: block;
+        visibility: hidden;
     }
     .hero__title{
         font-size: 2rem;
