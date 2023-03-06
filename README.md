@@ -2,7 +2,7 @@
 
 
 # mecanica_sergioariel
-https://karinaeliz.github.io/mecanica_sergioariel/
+https://mecanicasergioariel.netlify.app/
 <<<<<<< HEAD
 mecanica.png
 =======
