@@ -1,11 +1,6 @@
-const toggleBTn = document.querySelector('.toggle_btn')
-const toggleBTnIcon = document.querySelector('.toggle_btn i')
-const dropDownMenu = document.querySelector('.dropdown_menu')
+const menuHamburger = document.querySelector('.menu-hamburger')
+const navLink = document.querySelector('.nav-links')
 
-toggleBTn.onclick = function (){
-    dropDownMenu.classList.toggle('open')
-    const isOpen= dropDownMenu.classList.contains('open')
-    toggleBTnIcon.classList = isOpen
-    ? 'fa-solid fa-xmark'
-    : 'fa-solid fa-bars'
-}
+menuHamburger.addEventListener('click',() =>{
+    navLink.classList.toggle('activo')
+});

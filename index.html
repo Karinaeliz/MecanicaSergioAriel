@@ -10,31 +10,27 @@
     <title>Mecánica Sergio Ariel </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="assest/logomecanicaSergioAriel.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 
 </head>
 <body>
     <!--Hero-Nav-->
     <header class="hero">
-        <div class="navbar">
-            <div class="logo">Mecánica Sergio Ariel</div>
-            <ul class="links">
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#gallery">Mis Trabajos</a></li>
-                <li><a href="#estamos_en">Estamos en </a></li>
-            </ul>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
+        <nav class="navbar" data-aos="fade-up">
+            <span class="logo">Mecánica Sergio Ariel</span>
+            <div class="nav-links">
+                <ul >
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Mis Trabajos</a></li>
+                    <li><a href="#estamos_en">Estamos en </a></li>
+                </ul>
             </div>
-        </div>
-        <div class="dropdown_menu open">
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#gallery">Mis Trabajos</a></li>
-            <li><a href="#estamos_en">Estamos en </a></li>
-        </div>
+            <i class="fa-solid fa-bars menu-hamburger"></i>
+        </nav>
         <div class="container" id="inicio">
             <section class="hero__container">
-                <div class="hero__texts"> 
+                <div class="hero__texts" data-aos="fade-up"> 
                     <h1 class="hero__title">¡Nosotros lo arreglamos! <br> Hacemos un trabajo de calidad <br>a los mejores precios.</h1>
                     <a href="https://api.whatsapp.com/send?phone=5491151750842" target="_blank" class="hero__cta">Consultas y Reservas</a>
                 </div>
@@ -44,9 +40,9 @@
     </header>
     <main>
         <!--Servicios-->
-        <section class="container services" id="services">
+        <section class="container services" id="services" data-aos="fade-up" data-aos-duration="3000">
             <h2 class="services__title">Nuestros Servicios</h2>
-            <div class="container__services">
+            <div class="container__services" data-aos="fade-right" >
                 <img  class="picture-services" src="assest/MecanicaAutomotriz.svg" alt="Servicio de mecanica general" title="mecanica automotriz">
                 <div class="text">
                     <h3>Mecánica general</h3>
@@ -61,7 +57,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="container_services diag">
+            <div class="container_services diag" data-aos="fade-left">
                 <div class="text">
                     <h3>Diagnóstico por scaner</h3>
                     <ul class="items_servicios">
@@ -75,38 +71,38 @@
             
         </section>
         <!--Galeria-->
-        <section class="container gallery" id="gallery">
-            <h2 class="gallery__title">Mis trabajos</h2>
+        <section class="container gallery" id="gallery" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="gallery__title">Mis Trabajos</h2>
             <div class="gallery__container">
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/rueda_fonica.webp" alt="rueda fonica">
                     <figcaption class="description">Cambio de rueda fónica</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/armadodeburro-falcon.webp" alt="armado de burro de ford falcon">
                     <figcaption class="description">Armado de burro de Ford-Falcon</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/cambio_embrague-ford.webp" alt="cambio de embrieague de  camioneta ford">
                     <figcaption class="description">Cambio de embrague de Camioneta ford</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/cambiodefiltro.webp" alt="cambio de filtro">
                     <figcaption class="description">Cambio de filtro</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/regulacionbombinembriague.webp" alt="regulacion de bombin de embriague">
                     <figcaption class="description">Regulación de bombín de embrague</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/trendelantero.webp" alt="tren delantero">
                     <figcaption class="description">Tren delantero</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture" data-aos="flip-left">
                     <img class="gallery__img" src="assest/scaner.webp" alt="diagnostico por scaner">
                     <figcaption class="description">Diagnóstico vehicular por scanner</figcaption>
                 </figure>
-                <figure class="gallery__picture">
+                <figure class="gallery__picture"data-aos="flip-left">
                     <img class="gallery__img" src="assest/cambiodebujias.webp" alt="cambio de bujias">
                     <figcaption class="description">Cambio de bujías</figcaption>
                 </figure>
@@ -114,11 +110,11 @@
         </section>
         
         <!--Estamos en-->
-        <section class="container direction" id="estamos_en">
+        <section class="container direction" id="estamos_en" data-aos="fade-up" data-aos-duration="3000">
             <h2 class="direction__title">Nos encontrás en:</h2>
-            <div class="container__direction">
-                <iframe title="myFrame" class="map__direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.407051380204!2d-58.64873828446944!3d-34.845998080397365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdc8270276433%3A0x4641f6a69ccdfdca!2sMecanica%20Sergio%20Ariel!5e0!3m2!1ses!2sar!4v1673982132889!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="container-texts">
+            <div class="container__direction" >
+                <iframe  data-aos="fade-right" title="myFrame" class="map__direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.407051380204!2d-58.64873828446944!3d-34.845998080397365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdc8270276433%3A0x4641f6a69ccdfdca!2sMecanica%20Sergio%20Ariel!5e0!3m2!1ses!2sar!4v1673982132889!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                <div class="container-texts" data-aos="fade-left">
                     <p class="direction__p">Abierto de Lunes a Sabados de 10:00 hs a 18:00hs.
                     </p>
                     <p class="direction__p">
@@ -134,7 +130,7 @@
         
     </main>
     <!--footer-->
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-duration="3000">
         <div class="footer-content">
             <h3>Contacto</h3>
             <ul class="contacto-Redes">
@@ -152,5 +148,9 @@
     </footer>
     <script src="toggleBtn.js"></script>
     <script src="https://kit.fontawesome.com/acb7200004.js" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
