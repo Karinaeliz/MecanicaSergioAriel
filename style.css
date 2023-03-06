@@ -70,10 +70,13 @@ a{
 }
 
 .navbar .logo{
-    color: #fff;
+    width: 10%;
+    filter: drop-shadow(16px 3px 17px #4751db);
+    
+    /* color: #fff;
     font-size: 2em;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 5px;  */
 }
 .navbar .nav-links ul {
     display: flex;
@@ -377,6 +380,7 @@ a{
         position: absolute;
         top: 40px;
         left: 30px;
+        width: 15%;
     }
     .navbar .menu-hamburger{
         display: block; 
@@ -435,6 +439,7 @@ a{
         width: 75%;
         margin-top: 30px;
         text-align: center;
+        
     }
     
     .diag{
@@ -476,8 +481,8 @@ a{
 }
 @media screen and (max-width:480px){
     .navbar .logo{
-        font-size: 1rem;
-        text-align: center;
+        top: 30px;
+        width: 25%;
     }
     .navbar .menu-hamburger{
         top: 30px;
